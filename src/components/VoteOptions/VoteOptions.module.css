@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 22px;
+  background-color: transparent;
+  color: #cbeec7;
+  backdrop-filter: blur(30px);
+
+  border: 1px solid #60fce2;
+  border-radius: 8px;
+  background-color: rgba(0, 163, 136, 0.5);
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  min-width: 120px;
+}
+
+.button:hover {
+  background-color: rgba(0, 163, 136, 0.2);
+}
+
+.reset {
+  background-color: rgba(220, 53, 69, 0.4);
+  border-color: #dc3545;
+}
+
+.reset:hover {
+  background-color: rgba(220, 53, 69, 0.2);
+}

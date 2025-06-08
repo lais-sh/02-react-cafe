@@ -1,0 +1,25 @@
+.container {
+  border: 1px solid #60fce2;
+  border-radius: 4px;
+  padding: 16px;
+  max-width: 300px;
+  width: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  background-color: rgba(0, 163, 136, 0.1);
+  backdrop-filter: blur(200px);
+}
+
+.stat {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #cbeec7;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat strong {
+  font-weight: 600;
+  color: #cbeec7;
+}
