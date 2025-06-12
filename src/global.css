@@ -1,5 +1,6 @@
 body {
-  background-image: url("./assets/ratePageBg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background-color: white;
+  color: #111827;
 }

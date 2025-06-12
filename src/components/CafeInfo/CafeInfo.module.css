@@ -1,28 +1,22 @@
 .container {
-  padding: 12px 24px;
-  border: 0px solid #e1e4e8;
-  border-radius: 4px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  margin-bottom: 32px;
+  text-align: center;
+  padding: 32px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 560px;
 }
 
+
 .title {
-  margin: 0;
-  text-align: center;
-  font-family: "Pacifico", cursive;
-  font-size: 48px;
-  color: #cbeec7;
-  font-weight: 100;
-  letter-spacing: 0.08em;
-  margin-bottom: 32px;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
 }
 
 .description {
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.06em;
-  font-size: 16px;
-  color: #cbeec7;
-  max-width: 600px;
-  line-height: 1.6;
+  font-size: 20px;
+  color: #555;
 }
